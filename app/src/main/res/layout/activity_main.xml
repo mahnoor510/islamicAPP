@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#B66A88"
     tools:context=".MainActivity">
 
     <TextView
@@ -41,9 +42,10 @@
         app:srcCompat="@drawable/commit" />
 
     <Button
-        android:id="@+id/btngit"
+        android:id="@+id/git"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BA6486"
         android:text="Repository"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -51,22 +53,24 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btnpractice"
+        android:id="@+id/practice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BA6486"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="60dp"
         android:text="Practice"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btngit" />
+        app:layout_constraintTop_toBottomOf="@+id/git" />
 
     <Button
-        android:id="@+id/btntest"
+        android:id="@+id/test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BA6486"
         android:layout_marginStart="60dp"
         android:layout_marginTop="20dp"
         android:text="Test"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btngit" />
+        app:layout_constraintTop_toBottomOf="@+id/git" />
 </androidx.constraintlayout.widget.ConstraintLayout>
