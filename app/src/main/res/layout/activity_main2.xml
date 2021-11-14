@@ -10,7 +10,7 @@
         android:id="@+id/generate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         android:layout_marginTop="20dp"
         android:text="generate"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:text="Niteeyah"
@@ -43,7 +43,7 @@
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:text="Shafaweeyah"
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         android:layout_marginTop="10dp"
         android:text="Lisaveyah"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,8 +67,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:text="Halqiyah"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
+        android:text="Halqiyah_b"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
 
@@ -79,7 +79,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
         android:text="Shajariyah_Haafiyah"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn6" />
 
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         android:text="Thalqeeyah"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn3" />
@@ -99,9 +99,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#BA6486"
         android:layout_marginEnd="30dp"
-        android:text="lahatiyah"
+        android:backgroundTint="@color/blue"
+        android:text="Lahatiyah_b"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn4" />
 
@@ -111,8 +111,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#BA6486"
-        android:text="ghunna"
+        android:backgroundTint="@color/blue"
+        android:text="Ghunna"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn5" />
 
@@ -122,8 +122,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:backgroundTint="#BA6486"
-        android:text="tarfiyah"
+        android:backgroundTint="@color/blue"
+        android:text="Tarfiyah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn8" />
 
@@ -133,8 +133,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#BA6486"
-        android:text="asleeyah"
+        android:backgroundTint="@color/blue"
+        android:text="Asleeyah"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn7" />
 
@@ -145,8 +145,9 @@
         android:layout_marginTop="20dp"
         android:text="finish"
         android:textSize="24sp"
-        android:backgroundTint="#BA6486"
+        android:backgroundTint="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn10" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
