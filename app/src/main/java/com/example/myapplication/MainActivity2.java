@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Color;
 import android.os.Bundle;
 import android.content.Intent;
 import android.net.Uri;
@@ -37,11 +39,12 @@ public class MainActivity2 extends AppCompatActivity {
         btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btn11.setBackgroundColor(Color.RED);
 
             }
         });
 
-        
+
 
     }
 
