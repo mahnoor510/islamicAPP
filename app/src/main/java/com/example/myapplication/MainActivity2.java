@@ -20,6 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
     String[] alphabets = {"\u0627","\u0628", "\u062A","\u062B","\u062C","\u062D","\u062E","\u062F","\u0630","\u0631","\u0632","\u0633","\u0634","\u0635","\u0636","\u0637", "\u0638","\u0639","\u063A", "\u0641", "\u0642","\u0643","\u0644", "\u0645", "\u0646","\u0647", "\u0648", "\u064A","\u0622","\u0629","\u0649"};
     Random random=new Random();
     int rand;
+    Intent intent1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button btn88=findViewById(R.id.btn8); //Shajariyah_Haafiyah
         Button btn99=findViewById(R.id.btn9); //asleeyah
         Button btn1010=findViewById(R.id.btn10); //tarfiyah
+        Button btnfinish=findViewById(R.id.finish);
         btngenerate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,11 +67,6 @@ public class MainActivity2 extends AppCompatActivity {
                 else{
                     btn11.setBackgroundColor(Color.RED);
                 }
-                //TextView option1=findViewById(R.id.textView3);
-                //option1.setText(btn11.getText());
-                //TextView option2=findViewById(R.id.textView4);
-                //option2.setText(answer[rand]);
-
                 if(answer[rand].equals(btn22.getText())){
                     btn22.setBackgroundColor(Color.GREEN);
                 }
@@ -448,6 +445,14 @@ public class MainActivity2 extends AppCompatActivity {
                 else if(answer[rand]==btn11.getText()){
                     btn11.setBackgroundColor(Color.GREEN);
                 }
+            }
+        });
+
+        btnfinish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent1=new Intent(MainActivity2.this,MainActivity.class);
+                startActivity(intent1);
             }
         });
     }
