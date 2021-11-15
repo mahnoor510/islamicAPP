@@ -65,8 +65,52 @@ public class MainActivity2 extends AppCompatActivity {
                 else{
                     btn11.setBackgroundColor(Color.RED);
                 }
-                if(answer[rand]==btn22.getText()){
+                //TextView option1=findViewById(R.id.textView3);
+                //option1.setText(btn11.getText());
+                //TextView option2=findViewById(R.id.textView4);
+                //option2.setText(answer[rand]);
+
+                if(answer[rand].equals(btn22.getText())){
                     btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn33.getText())){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn44.getText())){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn55.getText())){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn66.getText())){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn77.getText())){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn88.getText())){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn99.getText())){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand].equals(btn1010.getText())){
+                    btn1010.setBackgroundColor(Color.GREEN);
+                }
+            }
+        });
+
+        btn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(answer[rand]=="Shafaweeyah") {
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else{
+                    btn22.setBackgroundColor(Color.RED);
+                }
+                if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
                 }
                 else if(answer[rand]==btn33.getText()){
                     btn33.setBackgroundColor(Color.GREEN);
@@ -95,18 +139,6 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        btn22.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(answer[rand]=="Shafaweeyah") {
-                    btn22.setBackgroundColor(Color.GREEN);
-                }
-                else{
-                    btn22.setBackgroundColor(Color.RED);
-                }
-            }
-        });
-
         btn33.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,6 +147,33 @@ public class MainActivity2 extends AppCompatActivity {
                 }
                 else{
                     btn33.setBackgroundColor(Color.RED);
+                }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
                 }
             }
         });
@@ -128,6 +187,33 @@ public class MainActivity2 extends AppCompatActivity {
                 else{
                     btn44.setBackgroundColor(Color.RED);
                 }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
+                }
             }
         });
 
@@ -139,6 +225,33 @@ public class MainActivity2 extends AppCompatActivity {
                 }
                 else{
                     btn55.setBackgroundColor(Color.RED);
+                }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
                 }
             }
         });
@@ -152,6 +265,33 @@ public class MainActivity2 extends AppCompatActivity {
                 else{
                     btn66.setBackgroundColor(Color.RED);
                 }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
+                }
             }
         });
 
@@ -163,6 +303,33 @@ public class MainActivity2 extends AppCompatActivity {
                 }
                 else{
                     btn77.setBackgroundColor(Color.RED);
+                }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
                 }
             }
         });
@@ -176,6 +343,33 @@ public class MainActivity2 extends AppCompatActivity {
                 else{
                     btn88.setBackgroundColor(Color.RED);
                 }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
+                }
             }
         });
 
@@ -187,6 +381,33 @@ public class MainActivity2 extends AppCompatActivity {
                 }
                 else{
                     btn99.setBackgroundColor(Color.RED);
+                }
+                if(answer[rand].equals(btn22.getText())){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn1010.getText()){
+                    btn1010.setBackgroundColor(Color.GREEN);
                 }
             }
         });
@@ -200,8 +421,35 @@ public class MainActivity2 extends AppCompatActivity {
                 else{
                     btn1010.setBackgroundColor(Color.RED);
                 }
+                if(answer[rand]==btn22.getText()){
+                    btn22.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn33.getText()){
+                    btn33.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn44.getText()){
+                    btn44.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn55.getText()){
+                    btn55.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn66.getText()){
+                    btn66.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn77.getText()){
+                    btn77.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn88.getText()){
+                    btn88.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn99.getText()){
+                    btn99.setBackgroundColor(Color.GREEN);
+                }
+                else if(answer[rand]==btn11.getText()){
+                    btn11.setBackgroundColor(Color.GREEN);
+                }
             }
         });
     }
-    
+
 }
